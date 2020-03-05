@@ -1,0 +1,23 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleCRM.Web", "SimpleCRM.Web\SimpleCRM.Web.csproj", "{9E7EE0F3-E321-4F49-94C4-1F5ABDC1D926}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleCRM", "SimpleCRM\SimpleCRM.csproj", "{ECD1966E-56F3-44F7-B9D1-6648356A95F4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9E7EE0F3-E321-4F49-94C4-1F5ABDC1D926}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E7EE0F3-E321-4F49-94C4-1F5ABDC1D926}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E7EE0F3-E321-4F49-94C4-1F5ABDC1D926}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E7EE0F3-E321-4F49-94C4-1F5ABDC1D926}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ECD1966E-56F3-44F7-B9D1-6648356A95F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECD1966E-56F3-44F7-B9D1-6648356A95F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECD1966E-56F3-44F7-B9D1-6648356A95F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECD1966E-56F3-44F7-B9D1-6648356A95F4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
