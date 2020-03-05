@@ -1,0 +1,24 @@
+﻿@model SimpleCRM.Web.Models.Home.HomePageViewModel
+<html>
+    <head>
+        <title>Simple CRM</title>
+    </head>
+    <body>
+        <h1>Customers</h1>
+        <p>
+            @Model.CurrentMessage
+        </p>
+        <table>
+            @foreach(var customer in Model.Customers)
+            {
+                <tr>
+                    <td>@customer.Id</td>
+                    <td>@customer.FirstName</td>
+                    <td>@customer.LastName</td>
+                    <td>@customer.PhoneNumber</td>
+                </tr>
+            }
+
+        </table>
+    </body>
+</html>
